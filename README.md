@@ -28,3 +28,12 @@ var fn = function () {
     // code
 }
 ```
+
+3. 利用 new 构造函数定义参数
+
+```js
+var fn = new Function() {
+    // code
+}
+
+```
