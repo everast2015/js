@@ -123,3 +123,12 @@ setInterval(function() {
  ## 改变函数内部`this` 指向
 
  `javascript` 为我们专门提供了一些函数方法来帮我们更优雅的处理函数内部`this`的指向问题，常用的有`bind()`、`call()`、`apply()` 三种方法
+
+ 1. `call()` 
+
+```js
+ 
+ var o = {
+     name: '当燃'
+ }
+```
