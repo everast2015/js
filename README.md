@@ -45,7 +45,7 @@ var fn = new Function() {
 ```js
 
 function fn() {
-    // code
+    console.log('普通函数' + this)
 }
 
 fn()  fn().call()
@@ -57,7 +57,7 @@ fn()  fn().call()
 
 var o = {
     hello: function() {
-        // code
+       console.log('对象方法' + this)
     }
 }
 
@@ -69,7 +69,7 @@ o.hello(); // 调用方法
 ```js
 // 这里的是构造函数，构造函数的首字母大写
 function Hello() {
-    // code
+    console.log('构造函数+' + this)
 }
 new Hello() // 构造函数的调用方法
 
@@ -80,6 +80,7 @@ new Hello() // 构造函数的调用方法
 
 btn.onClick = function () {
     // 点击了按钮就可以调用这个函数
+    console.log('绑定事件函数' + this)
 }
 
 ```
@@ -89,6 +90,7 @@ btn.onClick = function () {
 
 setInterval(function() {
     // 这个函数是定时器自动一秒钟调用一次
+    console.log('定时器函数' + this)
 }, 1000)
 
 ```
@@ -97,6 +99,7 @@ setInterval(function() {
 ```js
 (function() {
     // 这个立即执行函数，不需要调用，自己就会自动执行
+    console.log('立即执行函数' + this)
 })()
 
 ```
