@@ -119,3 +119,5 @@ setInterval(function() {
  事件绑定调用 | 绑定事件对象 | 
  定时器函数   | window | 
  立即执行函数 | window | 
+
+ ## 改变函数内部`this` 指向
