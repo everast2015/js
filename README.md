@@ -12,3 +12,11 @@ Object.defineProperty(obj,'num', {
 ```
 
 ## 函数的定义方式
+
+1. 自定义函数（命名函数）
+
+```js
+function fn() {
+    // code
+}
+```
