@@ -145,8 +145,19 @@ setInterval(function() {
 
 `apply()` 方法调用一个函数，简单理解为调用函数的方式，
 
+
 ```js
 apply(this, [paramArray])
-
 // 其中第一个参数表示的是需要改变this指向的函数或者方法，第二个参数表示的是传递的参数，参数必须是以数组的形式
+
+
+var o = {
+    name: '当燃'
+}
+
+function fn() {
+    console.log(this)
+}
+
+fn.apply(o) // 最终控制台输出的是 object
 ```
