@@ -100,3 +100,5 @@ setInterval(function() {
 })()
 
 ```
+
+## this 的指向问题
