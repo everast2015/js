@@ -191,3 +191,5 @@ f();
 */
 
 ```
+
+## call apply bind 总结
