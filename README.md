@@ -140,3 +140,5 @@ setInterval(function() {
  fn.call(0, 1, 2) 
 //  call 第一个可以调用函数，第二个可以改变函数内的this指向
 ```
+
+2. `apply` 方法
