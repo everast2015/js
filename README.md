@@ -165,3 +165,13 @@ fn.apply(o) // 最终控制台输出的是 object
 ## `bind` 方法
 
 `bind()` 方法不会调用函数，但是能改变函数内部`this` 指向
+
+```js
+
+fun.bind(thisArg, arg1, arg2)
+
+// thisArg： 在函数内部运行时指定的this的值
+// arg1，arg2 ：传递的其他参数
+// 返回由指定的this值和初始参数改造的原函数拷贝
+
+```
