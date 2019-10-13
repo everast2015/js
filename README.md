@@ -193,3 +193,11 @@ f();
 ```
 
 ## call apply bind 总结
+
+相同点：
+都可以改变函数内部的this指向
+ 
+区别点：
+
+1. call 和 apply 会调用函数，并且函数内部this指向
+2. call 和 apply 传递的参数不一样，call 传递参数arg1,arg2 形式，apply 必须数组形式 [arg]
