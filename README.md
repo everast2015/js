@@ -84,4 +84,12 @@ btn.onClick = function () {
 
 ```
 5. 定时器函数
+
+```js
+
+setInterval(function() {
+    // 这个函数是定时器自动一秒钟调用一次
+}, 1000)
+
+```
 6. 立即执行函数
