@@ -10,3 +10,5 @@ Object.defineProperty(obj,'num', {
     configurable: false, // 如果值是false,则不允许删除这个属性，默认值为false
 })
 ```
+
+## 函数的定义方式
