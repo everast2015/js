@@ -20,3 +20,11 @@ function fn() {
     // code
 }
 ```
+
+2. 函数表达式（匿名函数）
+
+```js
+var fn = function () {
+    // code
+}
+```
