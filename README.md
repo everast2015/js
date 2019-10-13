@@ -174,4 +174,17 @@ fun.bind(thisArg, arg1, arg2)
 // arg1，arg2 ：传递的其他参数
 // 返回由指定的this值和初始参数改造的原函数拷贝
 
+var o = {
+    name: '念沉'
+}
+function fn() {
+    console.log(this);
+}
+
+var f = fn.bind(o);
+
+f();
+
+// 为何需要把bind改变的指向赋给一个变量的呢？主要的原因就是bind方法不改变原有的值，所以需要赋给另一个值
+
 ```
