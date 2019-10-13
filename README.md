@@ -161,3 +161,5 @@ function fn() {
 
 fn.apply(o) // 最终控制台输出的是 object
 ```
+
+## `bind` 方法
