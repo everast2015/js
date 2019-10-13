@@ -102,3 +102,9 @@ setInterval(function() {
 ```
 
 ## this 的指向问题
+
+在普通函数中，`this` 指向的是window对象
+
+在对象函数中，`this` 指向的是`object` 对象
+
+在构造函数中，`this` 指向的是引用当前实例的对象，原型对象里面的`this` 也是当前引用实例的对象
