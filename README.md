@@ -37,3 +37,5 @@ var fn = new Function() {
 }
 
 ```
+
+## 函数的调用方法
