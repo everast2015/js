@@ -131,4 +131,9 @@ setInterval(function() {
  var o = {
      name: '当燃'
  }
+
+ function fn(a, b) {
+     console.log(this)
+     console.log(a + b)
+ }
 ```
