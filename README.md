@@ -41,6 +41,16 @@ var fn = new Function() {
 ## 函数的调用方法
 
 1. 普通函数
+
+```js
+
+function fn() {
+    // code
+}
+
+fn()  fn().call()
+
+```
 2. 对象的方法
 3. 构造函数
 4. 绑定事件函数
