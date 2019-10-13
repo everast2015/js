@@ -108,3 +108,10 @@ setInterval(function() {
 在对象函数中，`this` 指向的是`object` 对象
 
 在构造函数中，`this` 指向的是引用当前实例的对象，原型对象里面的`this` 也是当前引用实例的对象
+
+绑定事件函数 `this`指向的是函数的调用者
+
+定时器函数，`this` 指向的是window 对象
+
+立即执行函数，`this` 指向的是window对象
+
