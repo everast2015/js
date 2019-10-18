@@ -243,4 +243,8 @@ delete num
 // 3. 严格模式下this指向问题
 // 以前在全局作用域函数中this指向window对象
 // 严格模式下全局作用域中函数中this是undefined
+
+function fn() {
+    console.log(this);
+}
 ```
