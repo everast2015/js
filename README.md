@@ -284,9 +284,11 @@ function fn(a, a) {
     // 2. 将函数作为返回值输出
     function fn() {
         return function () {
-            
+
         }
     }
 ```
+
+## 闭包
 
 
