@@ -280,6 +280,8 @@ function fn(a, a) {
     fn(function() {
       alert('i know you now have a good day')
     })
+
+    // 2. 将函数作为返回值输出
 ```
 
 
