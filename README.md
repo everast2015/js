@@ -247,4 +247,6 @@ delete num
 function fn() {
     console.log(this);
 }
+
+// 4. 在严格模式下，如果构造函数不加new调用，this会报错
 ```
