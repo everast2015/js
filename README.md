@@ -277,6 +277,10 @@ function fn(a, a) {
     function fn(callback) {
         callback && callback();
     }
+
+    fn(function() {
+      alert('i know you now have a good day')
+    })
 </script>
 ```
 
