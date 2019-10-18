@@ -272,8 +272,7 @@ function fn(a, a) {
 > 高阶函数是对其他函数进行操作的函数，它接受函数作为参数或将函数作为返回值输出
 
 ```js
-
-<script>
+    // 接受函数作为参数
     function fn(callback) {
         callback && callback();
     }
@@ -281,7 +280,6 @@ function fn(a, a) {
     fn(function() {
       alert('i know you now have a good day')
     })
-</script>
 ```
 
 
