@@ -249,4 +249,10 @@ function fn() {
 }
 
 // 4. 在严格模式下，如果构造函数不加new调用，this会报错
+
+function Star() {
+    this.sex = '女'
+}
+
+Star();
 ```
