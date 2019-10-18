@@ -266,3 +266,5 @@ function fn(a, a) {
     console.log( a + a)
 }
 ```
+
+## 高阶函数
