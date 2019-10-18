@@ -218,4 +218,13 @@ f();
 "use strict "
 // 开启严格模式的方法
 
+// 此时只为function 开启严格模式
+function fn() {
+    'use strict'
+}
+
+function fun() {
+    // 里面的还是按照普通的模式执行
+}
+
 ```
