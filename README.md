@@ -260,4 +260,6 @@ Star();
 setTimeout(function() {
     console.log(this);
 })
+
+// 6. 严格模式下函数里面的参数不允许有重名
 ```
