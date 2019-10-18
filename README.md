@@ -255,4 +255,9 @@ function Star() {
 }
 
 Star();
+
+// 5. 定时器指向的this还是window 
+setTimeout(function() {
+    console.log(this);
+})
 ```
