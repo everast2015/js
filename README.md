@@ -234,5 +234,6 @@ function fun() {
 ```js
 
 // 1. 变量名必须先声明再使用
-
+num = 10;
+console.log(num) // 语法错误，变量需先声明后使用
 ```
