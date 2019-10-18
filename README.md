@@ -238,4 +238,9 @@ num = 10;
 console.log(num) // 语法错误，变量需先声明后使用
 
 // 2. 不能随意删除已声明的变量
+delete num
+
+// 3. 严格模式下this指向问题
+// 以前在全局作用域函数中this指向window对象
+// 严格模式下全局作用域中函数中this是undefined
 ```
