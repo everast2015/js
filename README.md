@@ -262,4 +262,7 @@ setTimeout(function() {
 })
 
 // 6. 严格模式下函数里面的参数不允许有重名
+function fn(a, a) {
+    console.log( a + a)
+}
 ```
