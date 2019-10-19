@@ -341,6 +341,22 @@ Object.assign(o,man)
 
 方法二：使用`for` 循环的方式
 
+```js
+
+var o = {}
+var obj = {
+    name: '念沉',
+    age: '20'
+}
+
+for(var k in obj) {
+    // 其中 k 是属性名，obj是属性值
+    o[k] = obj[k]
+}
+
+console.log(o)
+```
+
 
 2. 深拷贝拷贝多层，每一级别的数据都会拷贝
 
