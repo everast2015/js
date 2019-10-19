@@ -335,6 +335,8 @@ var man = {
     age: '20'
 }
 
+Object.assign(o,man)
+
 ```
 
 方法二：
