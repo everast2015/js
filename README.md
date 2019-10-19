@@ -303,4 +303,18 @@ function fn(a, a) {
 
 > 闭包是有权访问另一个函数作用域中变量的函数
 
+```js
+
+function fn() {
+    var num = 10;
+    function fun() {
+        console.log(num)
+    }
+    fun()
+}
+
+fn()
+
+```
+
 
