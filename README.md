@@ -396,5 +396,7 @@ function deepCopy(newObj, oldObj) {
     }
 }
 
-deepCopy()
+deepCopy(o, obj)
+
+console.log(o)
 ```
