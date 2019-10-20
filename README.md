@@ -418,3 +418,7 @@ var | let | const
  值可更改 | 值可更改 | 值不可更改
 
  ## for in 和 for of 的区别
+
+ 区别：
+ 1. for in 遍历的是对象，for of 遍历的是数组，for of 是ES6提出来的
+ 2. for in 遍历的是键名，for of 遍历的是键值
