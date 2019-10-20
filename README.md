@@ -378,6 +378,8 @@ function deepCopy(newObj, oldObj) {
         // 判断我们的属性值属于那种数据类型
         // 1.获取属性值 oldObj[k]
         var item = oldObj[k]
+
+        // 2. 判断这个值是否是数组
     }
 }
 ```
