@@ -379,14 +379,14 @@ function deepCopy(newObj, oldObj) {
         // 1.获取属性值 oldObj[k]
         var item = oldObj[k]
 
-        // 2. 判断这个值是否是数组
         if(item instanceof Array) {
+             // 2. 判断这个值是否是数组
             newObj[k] = []
             deepCopy(newObj[k], item)
         } else if() {
-            
+             // 3. 判断这个值是否是对象
         }
-        // 3. 判断这个值是否是对象
+       
         // 4. 属于简单数据类型
     }
 }
