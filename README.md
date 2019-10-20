@@ -391,10 +391,11 @@ function deepCopy(newObj, oldObj) {
             newObj[k] = {}
             deepCopy(newObj[k], item)
         } else {
+               // 4. 属于简单数据类型
               newObj[k] = item
         }
        
-        // 4. 属于简单数据类型
+      
     }
 }
 
