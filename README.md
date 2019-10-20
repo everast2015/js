@@ -403,3 +403,5 @@ deepCopy(o, obj)
 
 console.log(o)
 ```
+
+## var let const 的区别
