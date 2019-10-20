@@ -439,3 +439,15 @@ for(vals in arr) {
 ```
 
 ## js 中 set和map的区别
+
+1. set 方法可以对数组进行去重，但是仅针对的是一维数组
+```js
+
+let arr = new Set();
+
+[1,2,3,4,5,6,7,8,1,2].forEach((val) = > arr.add(val))
+
+console.log(arr)
+
+```
+2. 
