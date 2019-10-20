@@ -383,6 +383,8 @@ function deepCopy(newObj, oldObj) {
         if(item instanceof Array) {
             newObj[k] = []
             deepCopy(newObj[k], item)
+        } else if() {
+            
         }
         // 3. 判断这个值是否是对象
         // 4. 属于简单数据类型
