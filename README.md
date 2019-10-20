@@ -422,3 +422,18 @@ var | let | const
  区别：
  1. for in 遍历的是对象，for of 遍历的是数组，for of 是ES6提出来的
  2. for in 遍历的是键名，for of 遍历的是键值
+
+ 简单来说，for in 是遍历键名，for of 是遍历键值
+
+```js
+let arr = ['林黛玉', '薛宝钗']
+
+for(val in arr) {
+    console.log(val) // 0,1
+}
+
+for(vals in arr) {
+    console.log(vals) // 林黛玉，薛宝钗
+}
+ 
+```
