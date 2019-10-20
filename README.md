@@ -376,6 +376,7 @@ var o = {};
 function deepCopy(newObj, oldObj) {
     for(var k in oldObj) {
         // 判断我们的属性值属于那种数据类型
+        // 1.获取属性值
     }
 }
 ```
