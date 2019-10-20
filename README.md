@@ -380,6 +380,10 @@ function deepCopy(newObj, oldObj) {
         var item = oldObj[k]
 
         // 2. 判断这个值是否是数组
+        if(item instanceof Array) {
+            newObj[k] = []
+            deepCopy(newObj[k], item)
+        }
         // 3. 判断这个值是否是对象
         // 4. 属于简单数据类型
     }
