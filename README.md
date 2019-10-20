@@ -372,4 +372,10 @@ var obj = {
 
 var o = {};
 // 封装函数
+
+function deepCopy(newObj, oldObj) {
+    for(var k in oldObj) {
+        // 判断我们的属性值属于那种数据类型
+    }
+}
 ```
