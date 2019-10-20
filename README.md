@@ -380,6 +380,7 @@ function deepCopy(newObj, oldObj) {
         var item = oldObj[k]
 
         // 2. 判断这个值是否是数组
+        // 3. 判断这个值是否是对象
     }
 }
 ```
