@@ -366,7 +366,8 @@ var obj = {
     name: '念沉',
     msg: {
         age: 18
-    }
+    },
+    color: ['skyblue', 'green']
 }
 
 
@@ -394,4 +395,6 @@ function deepCopy(newObj, oldObj) {
         // 4. 属于简单数据类型
     }
 }
+
+deepCopy()
 ```
