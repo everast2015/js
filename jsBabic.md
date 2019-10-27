@@ -54,6 +54,9 @@ console.log(address) // tel is defined; 报错了
 
 ```js
 
+age = 18;
+
+console.log(age) // 可以拿到值，但是是全局变量的值
 ```
 
 
