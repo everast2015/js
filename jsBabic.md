@@ -61,5 +61,7 @@ console.log(age) // 可以拿到值，但是是全局变量的值
 
 ### 变量的命名规范
 
+- 有字母、数字、下换线、和美元符号组成，如：username,num01,uername_,_name,$name
+
 
 
