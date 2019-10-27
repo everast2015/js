@@ -63,6 +63,7 @@ console.log(age) // 可以拿到值，但是是全局变量的值
 
 - 有字母、数字、下换线、和美元符号组成，如：username,num01,uername_,_name,$name
 - 严格区分大小写，如 var app 和 var App 是两个不同的变量
+- 不能以数字开头，18age 是错误的
 
 
 
