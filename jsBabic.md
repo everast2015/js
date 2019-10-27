@@ -44,5 +44,11 @@ var age; // 只声明不赋值，最终的输出结果是undefined
 
 5. 不声明直接使用一个变量，会直接报错的
 
+```js
+
+console.log(address) // tel is defined; 报错了
+
+```
+
 
 
