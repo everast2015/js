@@ -66,7 +66,7 @@ console.log(age) // 可以拿到值，但是是全局变量的值
 - 不能以数字开头，18age 是错误的
 - 不能是关键字和保留字，如 var / for/ while
 - 变量名必须有意义 var username, nl -> age
-- 准守驼峰命名，首字母大写，后面单词的首字母需大写，例如：myFirstName
+- 遵循驼峰命名，首字母大写，后面单词的首字母需大写，例如：myFirstName
 
 
 
