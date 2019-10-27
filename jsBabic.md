@@ -50,5 +50,11 @@ console.log(address) // tel is defined; 报错了
 
 ```
 
+6. 不声明，直接赋值
+
+```js
+
+```
+
 
 
