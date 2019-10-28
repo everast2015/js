@@ -85,7 +85,7 @@ var name = 'China' // 这是一个字符串
 
 js把数据类型分为两类：
 - 简单数据类型 （string,number,boolean,null,undefined）
-- 复杂数据类型
+- 复杂数据类型 （Object)
 
 
 
