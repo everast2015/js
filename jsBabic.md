@@ -96,5 +96,7 @@ js把数据类型分为两类：
  Undefined | var a;声明了变量a但是没有给值，此时 a = undefined | undefined
  Null | var a = null ; 声明了变量a为空值 | null
 
+ ### 数字型 number
+
 
 
