@@ -68,5 +68,7 @@ console.log(age) // 可以拿到值，但是是全局变量的值
 - 变量名必须有意义 var username, nl -> age
 - 遵循驼峰命名，首字母大写，后面单词的首字母需大写，例如：myFirstName
 
+## 数据类型
+
 
 
