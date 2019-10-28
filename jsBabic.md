@@ -94,6 +94,7 @@ js把数据类型分为两类：
  Boolean | 布尔值类型，如true或false 等价于1和0 | false
  String | 字符串类型，如张三，注意，咱们js里面都带引号 | ""
  Undefined | var a;声明了变量a但是没有给值，此时 a = undefined
+ Null | var a = null ; 声明了变量a为空值
 
 
 
