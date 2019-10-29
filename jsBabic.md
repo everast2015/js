@@ -105,5 +105,5 @@ isNaN()
 // 用来判断一个变量是否为非数字的类型，返回true或false
 
 ```
-(图片的链接地址)[https://github.com/everest2015/js/blob/master/img/number.png]
+![图片链接地址](https://github.com/everest2015/js/blob/master/img/number.png)
 
