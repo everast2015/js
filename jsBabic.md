@@ -108,3 +108,5 @@ isNaN()
 ![图片链接地址](https://github.com/everest2015/js/blob/master/img/number.png)
 
 ### 字符串 string
+
+因为html里面的标签使用的是双引号，JS这里我们更推荐使用单引号
