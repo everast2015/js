@@ -107,3 +107,4 @@ isNaN()
 ```
 ![图片链接地址](https://github.com/everest2015/js/blob/master/img/number.png)
 
+### 字符串 string
