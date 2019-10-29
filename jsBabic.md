@@ -120,3 +120,5 @@ var name = 'today you are so nice'
 console.log(name.length) // 可以打印出字符串中的长度
 
 ```
+
+### 字符串的拼接
