@@ -112,3 +112,11 @@ isNaN()
 因为html里面的标签使用的是双引号，JS这里我们更推荐使用单引号
 
 ### 获取字符串的长度
+
+```js
+
+var name = 'today you are so nice'
+
+console.log(name.length) // 可以打印出字符串中的长度
+
+```
