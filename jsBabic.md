@@ -176,8 +176,8 @@ Star.prototype.sing = function() {
 var ldh = new Star('刘德华', 18)
 var zxy = new Star('张学友', 18)
 
-console.log(Star.prototype)
-console.log(ldh.__proto__)
+console.log(Star.prototype) // 原型对象
+console.log(ldh.__proto__) // 对象原型
 ```
 
 ![原型对象关系图](https://github.com/everest2015/js/blob/master/img/object.png)
