@@ -183,3 +183,5 @@ console.log(ldh.__proto__) // 对象原型
 ![原型对象关系图](https://github.com/everest2015/js/blob/master/img/object.png)
 
 ## constructor 构造函数
+
+对象原型`__proto__` 和构造函数(prototype) 里面都有一个属性 `constructor` 属性，`constructor` 我们称为构造函数，因为它指会构造函数本身
