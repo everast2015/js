@@ -173,6 +173,7 @@ Star.prototype.sing = function() {
 }
 
 // 调用方法
+var ldh = new Star('刘德华', 18)
 ```
 
 ![原型对象关系图](https://github.com/everest2015/js/blob/master/img/object.png)
