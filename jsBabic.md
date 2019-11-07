@@ -185,3 +185,5 @@ console.log(ldh.__proto__) // 对象原型
 ## constructor 构造函数
 
 对象原型`__proto__` 和构造函数(prototype) 里面都有一个属性 `constructor` 属性，`constructor` 我们称为构造函数，因为它指会构造函数本身
+
+`constructor` 主要用于记录该对象引用于哪个构造函数，它可以让原型对象重新指向原来的构造函数
