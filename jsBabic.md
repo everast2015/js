@@ -162,3 +162,5 @@ __proto__ 对象原型和原型对象prototype 是等价的
 __proto__ 对象原型的意义就在于对象的查找机制提供了一个方向，或者说一条路线，但是它是一个非标准属性，因此实际开发中，不可以使用这个属性，它只是内部指向原型对象prototype
 
 ![原型对象关系图](https://github.com/everest2015/js/blob/master/img/object.png)
+
+## constructor 构造函数
