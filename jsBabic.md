@@ -156,3 +156,5 @@ Javascript 规定，每一个构造函数都有一个prototype 属性，指向�
 ## 构造函数和原型
 
 对象都会有一个属性 __proto__ 指向构造函数的prototype 原型对象，之所以我们对象可以使用构造函数prototype原型对象的属性和方法，就是因为对象有__proto__ 原型的存在
+
+__proto__ 对象原型和原型对象prototype 是等价的
