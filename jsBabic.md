@@ -189,3 +189,5 @@ console.log(ldh.__proto__) // 对象原型
 `constructor` 主要用于记录该对象引用于哪个构造函数，它可以让原型对象重新指向原来的构造函数
 
 ## 构造函数、实例、原型对象三者之间的关系
+
+![原型对象关系图](https://github.com/everest2015/js/blob/master/img/relations.png)
