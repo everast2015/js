@@ -230,3 +230,5 @@ var draw = new Demo('i like apple')
 ```
 1. 在构造函数中，里面的this指向的是对象实例ldh
 2. 原型对象函数里面的this，指向的是实例对象 ldh
+
+## 继承
