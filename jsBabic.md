@@ -206,8 +206,10 @@ Star.prototype.sing = function() {
 }
 
 var ldh = new Star('刘德华', 18)
-// 只要是对象就有 __proto__ 原型，指向原型对象
+// 1、只要是对象就有 __proto__ 原型，指向原型对象
 console.log(Star.prototype);
 console.log(Star.prototype.__proto__ === Object.prototype)
+
+// 2、我们Star原型对象里面的__proto__ 原型指向的是 Object.prototype
 
 ```
