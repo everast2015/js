@@ -321,7 +321,7 @@ console.log(demo.prototype.construstor == class demo {}) // 指向的是类的�
    demo.forEach(function(val) {
        console.log(val * 2) // 2，4，6，8，10 输出的结果
    })
-
+   // demo输出的结果：1，2，3，4，5
 
 ```
    - map()
