@@ -241,4 +241,7 @@ var draw = new Demo('i like apple')
 
 fun.call(thisArg, arg1,arg2)
 
+// thisArg 当前调用函数this的指向对象
+// arg1,arg2 传递的其他参数
+
 ```
