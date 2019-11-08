@@ -245,3 +245,5 @@ fun.call(thisArg, arg1,arg2)
 // arg1,arg2 传递的其他参数
 
 ```
+
+1. call() 可以调用函数
