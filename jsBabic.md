@@ -191,3 +191,5 @@ console.log(ldh.__proto__) // 对象原型
 ## 构造函数、实例、原型对象三者之间的关系
 
 ![原型对象关系图](https://github.com/everest2015/js/blob/master/img/relations.png)
+
+## 构造函数，原型，原型链
