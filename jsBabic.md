@@ -304,4 +304,6 @@ class demo{
 
 console.log(demo.prototype) // 类有一个原型对象 prototype 指向的是原型对象的本身 construstor
 
+console.log(demo.prototype.construstor == class demo {}) // 指向的是类的本身
+
 ```
