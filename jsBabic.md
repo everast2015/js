@@ -268,5 +268,5 @@ function fn() {
     console.log('学习使我快乐')
 }
 
-fn.call(o) // 改变 this 的指向
+fn.call(o) // 改变 this 的指向，此时这个函数的this，就指向了o这个对象
 ```
