@@ -315,6 +315,15 @@ console.log(demo.prototype.construstor == class demo {}) // 指向的是类的�
 
 - 数组方法
    - foreach()
+   
+```js
+   let demo = [1,2,3,4,5,6]
+   demo.forEach(function(val) {
+       console.log(val * 2) // 2，4，6，8，10 输出的结果
+   })
+
+
+```
    - map()
    - filter()
    - some()
