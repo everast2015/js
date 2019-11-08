@@ -307,3 +307,5 @@ console.log(demo.prototype) // 类有一个原型对象 prototype 指向的是�
 console.log(demo.prototype.construstor == class demo {}) // 指向的是类的本身
 
 ```
+语法糖的概念：
+
