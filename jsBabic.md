@@ -218,5 +218,7 @@ console.log(Object.prototype.__proto__) // 最终的结果是空的 null
 ![原型链关系图](https://github.com/everest2015/js/blob/master/img/prototype.png)
 
 ## 原型对象 this 指向
+```js
 
+```
 1. 在构造函数中，里面的this指向的是对象实例ldh
