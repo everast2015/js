@@ -205,4 +205,9 @@ Star.prototype.sing = function() {
     console.log('我会唱歌')
 }
 
+var ldh = new Star('刘德华', 18)
+// 只要是对象就有 __proto__ 原型，指向原型对象
+console.log(Star.prototype);
+console.log(Star.prototype.__proto__ === Object.prototype)
+
 ```
