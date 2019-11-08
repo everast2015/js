@@ -236,3 +236,9 @@ var draw = new Demo('i like apple')
 ### call()
 
 调用这个函数，并且修改函数运行时的this 指向
+
+```js
+
+fun.call(thisArg, arg1,arg2)
+
+```
