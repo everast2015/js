@@ -294,3 +294,4 @@ class Study {
  
 console.log(typeof Study) // function
 ```
+1. 类的本质其实就是一个函数，我们也可以简单的认为，类就是构造函数另一种写法
