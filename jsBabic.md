@@ -292,4 +292,5 @@ class Study {
     // code
 }
  
+console.log(typeof Study) // function
 ```
