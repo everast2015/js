@@ -314,5 +314,9 @@ console.log(demo.prototype.construstor == class demo {}) // 指向的是类的�
 ## ES5中新增方法
 
 - 数组方法
+   - foreach()
+   - map()
+   - filter()
+   - some()
 - 字符串方法
 - 对象方法
