@@ -254,5 +254,5 @@ function fn() {
     console.log('学习使我快乐')
 }
 
-fn.call()
+fn.call() // 打印的是：学习使我快乐
 ```
