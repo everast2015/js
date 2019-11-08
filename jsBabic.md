@@ -234,3 +234,5 @@ var draw = new Demo('i like apple')
 ## 继承
 
 ### call()
+
+调用这个函数，并且修改函数运行时的this 指向
