@@ -318,5 +318,6 @@ console.log(demo.prototype.construstor == class demo {}) // 指向的是类的�
    - map()
    - filter()
    - some()
+   - every()
 - 字符串方法
 - 对象方法
