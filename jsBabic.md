@@ -219,6 +219,13 @@ console.log(Object.prototype.__proto__) // 最终的结果是空的 null
 
 ## 原型对象 this 指向
 ```js
+function Demo(name) {
+    this.name = name
+}
+demo.prototype.draw = function() {
+    console.log('i like english')
+}
 
+var draw = new Demo('i like apple')
 ```
 1. 在构造函数中，里面的this指向的是对象实例ldh
