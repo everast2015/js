@@ -247,3 +247,11 @@ fun.call(thisArg, arg1,arg2)
 ```
 
 1. call() 可以调用函数
+
+```js
+
+function fn() {
+    console.log('学习使我快乐')
+}
+
+```
