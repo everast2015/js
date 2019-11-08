@@ -270,3 +270,5 @@ function fn() {
 
 fn.call(o) // 改变 this 的指向，此时这个函数的this，就指向了o这个对象
 ```
+
+## 类
