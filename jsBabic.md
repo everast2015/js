@@ -314,7 +314,7 @@ console.log(demo.prototype.construstor == class demo {}) // 指向的是类的�
 ## ES5中新增方法
 
 数组方法
-   - foreach()
+   1. foreach()
    
 ```js
    let demo = [1,2,3,4,5,6]
@@ -324,15 +324,18 @@ console.log(demo.prototype.construstor == class demo {}) // 指向的是类的�
    // demo输出的结果：1，2，3，4，5
    // 最后的结论：foreach 不会改变原有数组的值
 ```
-   - map()
-   - filter()
+   2. map()
+   3. filter()
     
-   ```
-   filter 表示查找到满足条件的元素，返回的是一个数组，而已是把所有满足条件的元素返回回来
+   ```js
+   // filter 表示查找到满足条件的元素，返回的是一个数组，而已是把所有满足条件的元素返回回来
    ```
 
-   filter 
-   - some()
-   - every()
+   4. some()
+    ```js
+    // some 也是查找满足条件的元素是否存在，返回的是一个布尔值，如果查找到第一个满足条件的元素就终止循环
+    ```
+   5. every()
+
 - 字符串方法
 - 对象方法
