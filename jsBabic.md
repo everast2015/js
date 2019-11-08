@@ -216,3 +216,5 @@ console.log(Object.prototype.__proto__) // 最终的结果是空的 null
 
 ```
 ![原型链关系图](https://github.com/everest2015/js/blob/master/img/prototype.png)
+
+## 原型对象 this 指向
