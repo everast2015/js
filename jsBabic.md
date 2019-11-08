@@ -258,3 +258,14 @@ fn.call() // 打印的是：学习使我快乐
 ```
 
 2. 可以改变this的指向
+
+```js
+var o = {
+    name: 'everast'
+}
+
+function fn() {
+    console.log('学习使我快乐')
+}
+
+```
