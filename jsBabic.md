@@ -285,3 +285,11 @@ fn.call(o) // 改变 this 的指向，此时这个函数的this，就指向了o�
  ## 类 
 
  es6通过类实现面向对象编程
+
+```js
+
+class Study {
+    // code
+}
+ 
+```
