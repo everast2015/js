@@ -295,3 +295,13 @@ class Study {
 console.log(typeof Study) // function
 ```
 1. 类的本质其实就是一个函数，我们也可以简单的认为，类就是构造函数另一种写法
+2. 类有原型对象prototype
+
+```js
+class demo{
+
+}
+
+console.log(demo.prototype) // 类有一个原型对象 prototype 指向的是原型对象的本身 construstor
+
+```
