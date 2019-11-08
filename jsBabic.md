@@ -232,3 +232,5 @@ var draw = new Demo('i like apple')
 2. 原型对象函数里面的this，指向的是实例对象 ldh
 
 ## 继承
+
+### call()
