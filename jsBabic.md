@@ -313,7 +313,7 @@ console.log(demo.prototype.construstor == class demo {}) // 指向的是类的�
 
 ## ES5中新增方法
 
-- 数组方法
+数组方法
    - foreach()
    
 ```js
@@ -322,7 +322,7 @@ console.log(demo.prototype.construstor == class demo {}) // 指向的是类的�
        console.log(val * 2) // 2，4，6，8，10 输出的结果
    })
    // demo输出的结果：1，2，3，4，5
-
+   // 最后的结论：foreach 不会改变原有数组的值
 ```
    - map()
    - filter()
