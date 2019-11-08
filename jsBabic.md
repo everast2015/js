@@ -193,3 +193,16 @@ console.log(ldh.__proto__) // 对象原型
 ![原型对象关系图](https://github.com/everest2015/js/blob/master/img/relations.png)
 
 ## 构造函数，原型，原型链
+
+```js
+
+function Star(uname,age) {
+    this.uname = uname;
+    this.age = age;
+}
+
+Star.prototype.sing = function() {
+    console.log('我会唱歌')
+}
+
+```
