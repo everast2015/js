@@ -212,6 +212,7 @@ console.log(Star.prototype.__proto__ === Object.prototype)
 
 // 2、我们Star原型对象里面的__proto__ 原型指向的是 Object.prototype
 
-console.log(Object.prototype.__proto__) // 最终的结果是空的
+console.log(Object.prototype.__proto__) // 最终的结果是空的 null
 
 ```
+![原型链关系图](https://github.com/everest2015/js/blob/master/img/prototype.png)
