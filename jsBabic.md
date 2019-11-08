@@ -268,4 +268,5 @@ function fn() {
     console.log('学习使我快乐')
 }
 
+fn.call(o) // 改变 this 的指向
 ```
