@@ -364,6 +364,7 @@ obj.number = 1000
 Object.defineProperty(obj, username, {
     value: '蛰伏',// 定义的具体的值
     writable: false, // 不可以重写这个属性
+    enumerable: false, // 是否可枚举，表示的意思是该属性是否可遍历
 })
 
 ```
