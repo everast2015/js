@@ -393,5 +393,5 @@ function fn() {
 var fun = function() {
     // code
 }
-
 ```
+- 利用 new Function('参数1','参数2','参数3')
