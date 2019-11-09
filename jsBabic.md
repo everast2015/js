@@ -536,6 +536,8 @@ fn.apply(o, ['everast'])
 // 2. 但是它的参数必须是数组，否则会报错的
 // apply 的主要应用，比如我们可以应用apply借助于数学内置对象求最大值
 
-Math.max.apply(); // 借助于数学对象求最大值
+var arr = [10,12,9,8,7,6,5,4]
+var max= Math.max.apply(Math,arr); // 借助于数学对象求最大值
+console.log(max)
 ```
 
