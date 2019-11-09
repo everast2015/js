@@ -548,3 +548,5 @@ bind() 方法不会调用函数，但是能改变函数内部的this指向
 fun.bind(thisArg, arg1, arg2)
 ```
 
+- thisArg：在fun 函数运行时指定的this
+
