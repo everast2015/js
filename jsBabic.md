@@ -555,6 +555,8 @@ var o = {
 function fn() {
     console.log(this)
 }
+
+var f = fn.bind(o) // 不会调用函数，只能使用另一个方法来接收
 ```
 
 - thisArg：在fun 函数运行时指定的this
