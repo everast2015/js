@@ -506,4 +506,5 @@ function fn() {
     console.log('调用这个函数')
 }
  
+fn.call() // 调用这个函数，作用一
 ```
