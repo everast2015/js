@@ -450,8 +450,9 @@ btn.onclick = function() {
 ```
 5. 定时器函数
 ```js
-setInterval(function() {
-    // code 绑定事件函数
+window.setInterval(function() {
+    // 定时器函数中的this，指向的是window
+    console.log('定时器函数' + this)
 }, 1000) // 这个定时器函数是每隔一秒钟自动调用一次
 ```
 
