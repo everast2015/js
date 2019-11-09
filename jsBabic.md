@@ -516,3 +516,4 @@ apply() 方法调用一个函数，简单理解为调用函数的方式，但是
 ```js
 fun.apply(thisArg, [argsArray])
 ```
+- thisArg：在fun 函数运行时指定的this值
