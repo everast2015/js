@@ -447,7 +447,7 @@ btn.onclick = function() {
 ```js
 setInterval(function() {
     // code 绑定事件函数
-}) 
+}, 1000) // 这个定时器函数是每隔一秒钟自动调用一次
 ```
 
 6. 立即执行函数
