@@ -342,3 +342,6 @@ console.log(demo.prototype.construstor == class demo {}) // 指向的是类的�
 - 对象方法
 
 1. `Object.defineProperty(Obj, prop, descriptor)` 定义对象中新属性或修改原有属性
+
+- obj 必须，目标对象
+- prop 必须，需定义或修改属性的名字
