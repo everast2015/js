@@ -549,4 +549,5 @@ fun.bind(thisArg, arg1, arg2)
 ```
 
 - thisArg：在fun 函数运行时指定的this
+- arg1, arg2 传递的其他参数
 
