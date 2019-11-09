@@ -531,5 +531,7 @@ function fn() {
 }
 
 fn.apply(o, ['everast'])
+
+// 1. 也是调用函数，第二个可以改变函数内部的this指向
 ```
 
