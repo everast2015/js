@@ -388,3 +388,10 @@ function fn() {
 }
 ```
 - 函数表达式 （匿名函数）
+
+```js
+var fun = function() {
+    // code
+}
+
+```
