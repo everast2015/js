@@ -545,6 +545,6 @@ console.log(max)
 bind() 方法不会调用函数，但是能改变函数内部的this指向
 
 ```js
-
+fun.bind(thisArg, arg1, arg2)
 ```
 
