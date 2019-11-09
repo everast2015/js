@@ -444,4 +444,10 @@ btn.onclick = function() {
 
 ```
 5. 定时器函数
+```js
+setInterval(function() {
+    // code 绑定事件函数
+}) 
+```
+
 6. 立即执行函数
