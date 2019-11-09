@@ -345,3 +345,4 @@ console.log(demo.prototype.construstor == class demo {}) // 指向的是类的�
 
 - obj 必须，目标对象
 - prop 必须，需定义或修改属性的名字
+- descriptor 目标属性所拥有的特性
