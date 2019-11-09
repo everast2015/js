@@ -356,5 +356,13 @@ var obj = {
 }
 
 // 以前添加属性的方法
+obj.num = 1000
+obj.number = 1000
+
+// 使用ES5中新增的方法
+
+Object.defineProperty(obj, username, {
+    value: '蛰伏' // 定义的具体的值
+})
 
 ```
