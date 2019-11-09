@@ -544,3 +544,7 @@ console.log(max)
 3. bind() 方法
 bind() 方法不会调用函数，但是能改变函数内部的this指向
 
+```js
+
+```
+
