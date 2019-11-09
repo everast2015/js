@@ -461,6 +461,6 @@ setInterval(function() {
 
 this的指向 | 说明 | 
 ---------|----------|
- A1 | B1 | 
+ 普通函数中 | this 执行的是window | 
  A2 | B2 | 
  A3 | B3 |
