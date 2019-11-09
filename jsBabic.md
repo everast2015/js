@@ -497,5 +497,9 @@ this的指向 | 说明 |
 ```js
 
 fun.call(thisArg, arg1, arg2)
+
+var o = {
+    name: 'everast'
+}
  
 ```
