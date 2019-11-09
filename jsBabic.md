@@ -507,4 +507,5 @@ function fn() {
 }
  
 fn.call() // 调用这个函数，作用一
+fn.call(o) // 改变this的指向，this的指向目前是o
 ```
