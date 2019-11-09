@@ -541,3 +541,5 @@ var max= Math.max.apply(Math,arr); // 借助于数学对象求最大值
 console.log(max)
 ```
 
+3. bind() 方法
+
