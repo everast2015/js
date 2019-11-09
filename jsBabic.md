@@ -530,5 +530,6 @@ function fn() {
     console.log('this的指向问题' + this)
 }
 
+fn.apply(o, ['everast'])
 ```
 
