@@ -493,3 +493,9 @@ this的指向 | 说明 |
  1. call() 方法
 
  call() 方法调用一个对象，简单理解为调用函数的方式，但是它可以改变函数的this指向
+
+```js
+
+fun.call(thisArg, arg1, arg2)
+ 
+```
