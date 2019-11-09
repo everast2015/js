@@ -573,6 +573,9 @@ console.log(f,'this的指向是哪个函数')
 需求：我们有一个按钮，当我们点击之后，就禁用这个按钮，3秒钟之后开启这个按钮
 
 ```js
-
+var btn = document.querySelector('button');
+btn.onclick = function() {
+    this.disabled = true
+}
 ```
 
