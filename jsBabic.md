@@ -401,5 +401,5 @@ var fun = function() {
 var f = new Function();
 
 // 调用的方式
-
+f()
 ```
