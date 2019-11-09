@@ -514,5 +514,5 @@ fn.call(o) // 改变this的指向，this的指向目前是o
 apply() 方法调用一个函数，简单理解为调用函数的方式，但是它可以改变函数的this指向
 
 ```js
-
+fun.apply(thisArg, [argsArray])
 ```
