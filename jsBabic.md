@@ -487,3 +487,5 @@ this的指向 | 说明 |
  立即执行函数 | window
 
  ## 改变函数内部this 指向
+
+ Javascript 为我们提供了一些函数方法帮我们更优雅的处理函数内部this的指向问题，常用的有bind()/call()/apply() 方法
