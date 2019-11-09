@@ -460,6 +460,7 @@ window.setInterval(function() {
 ```js
 (function() {
     // 立即执行函数是自动调用
+    console.log('立即执行函数this的指向：' + this)
 })()
 ```
 
