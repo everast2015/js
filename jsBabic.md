@@ -452,5 +452,7 @@ setInterval(function() {
 
 6. 立即执行函数
 ```js
-
+(function() {
+    // 立即执行函数是自动调用
+})()
 ```
