@@ -456,3 +456,5 @@ setInterval(function() {
     // 立即执行函数是自动调用
 })()
 ```
+
+## 函数中this执行的是谁
