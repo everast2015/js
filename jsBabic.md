@@ -395,3 +395,9 @@ var fun = function() {
 }
 ```
 - 利用 new Function('参数1','参数2','参数3')
+
+```js
+
+var f = new Function();
+
+```
