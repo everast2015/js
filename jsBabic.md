@@ -403,3 +403,4 @@ var f = new Function();
 // 调用的方式
 f()
 ```
+- 所有函数都是Function的实例（对象）
