@@ -404,3 +404,4 @@ var f = new Function();
 f()
 ```
 - 所有函数都是Function的实例（对象）
+- 函数也属于对象
