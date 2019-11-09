@@ -338,4 +338,6 @@ console.log(demo.prototype.construstor == class demo {}) // 指向的是类的�
    5. every()
 
 - 字符串方法
+
+1. `Object.defineProperty(Obj, prop, descriptor)` 定义对象中新属性或修改原有属性
 - 对象方法
