@@ -451,3 +451,6 @@ setInterval(function() {
 ```
 
 6. 立即执行函数
+```js
+
+```
