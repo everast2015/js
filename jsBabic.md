@@ -443,7 +443,7 @@ demo.prototype.sing = function() {
 4. 绑定事件函数
 ```js
 btn.onclick = function() {
-    // 绑定事件函数，this指向的是函数的调用者
+    // 绑定事件函数，this指向的是函数的调用者，btn这个函数
     console.log('绑定事件函数的this：' + this)
 }
 
