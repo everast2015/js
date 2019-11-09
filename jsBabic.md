@@ -369,3 +369,8 @@ Object.defineProperty(obj, username, {
 ```
 
 2. `Object.keys()` 用于获取对象自身所有的属性
+
+```js
+Object.keys(); // 获取自身所有的属性
+
+```
