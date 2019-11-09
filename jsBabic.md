@@ -436,6 +436,9 @@ function Star() {
 new Star(); // 调用方法
 
 var demo = new Star(); // 构造函数中，this指向的是 demo这个实例对象
+demo.prototype.sing = function() {
+    // 原型对象里面的this，指向的也是 demo 这个实例对象
+}
 ```
 4. 绑定事件函数
 ```js
