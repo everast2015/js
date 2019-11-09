@@ -367,3 +367,5 @@ Object.defineProperty(obj, username, {
 })
 
 ```
+
+2. `Object.keys()` 获取属性名
