@@ -546,6 +546,8 @@ bind() 方法不会调用函数，但是能改变函数内部的this指向
 
 ```js
 fun.bind(thisArg, arg1, arg2)
+
+// 具体的用法
 ```
 
 - thisArg：在fun 函数运行时指定的this
