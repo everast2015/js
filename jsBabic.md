@@ -501,5 +501,9 @@ fun.call(thisArg, arg1, arg2)
 var o = {
     name: 'everast'
 }
+function fn() {
+    // code
+    console.log('调用这个函数')
+}
  
 ```
