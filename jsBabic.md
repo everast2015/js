@@ -362,7 +362,8 @@ obj.number = 1000
 // 使用ES5中新增的方法
 
 Object.defineProperty(obj, username, {
-    value: '蛰伏' // 定义的具体的值
+    value: '蛰伏',// 定义的具体的值
+    writable: false, // 不可以重写这个属性
 })
 
 ```
