@@ -519,3 +519,16 @@ fun.apply(thisArg, [argsArray])
 - thisArg：在fun 函数运行时指定的this值
 - argsArray：传递的值，必须包含在数组里面
 - 返回值就是函数的返回值，因为它就是调用函数
+
+```js
+
+var o = {
+    name: 'everast'
+}
+
+function fn() {
+    console.log('this的指向问题' + this)
+}
+
+```
+
