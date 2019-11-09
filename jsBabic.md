@@ -365,6 +365,7 @@ Object.defineProperty(obj, username, {
     value: '蛰伏',// 定义的具体的值
     writable: false, // 不可以重写这个属性
     enumerable: false, // 是否可枚举，表示的意思是该属性是否可遍历
+    configurable: false, // 目标属性是否可以被删除或再次修改
 })
 
 ```
@@ -375,3 +376,5 @@ Object.defineProperty(obj, username, {
 Object.keys(); // 获取自身所有的属性，返回一个由属性名组成的数组
 
 ```
+
+## 函数
