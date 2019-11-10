@@ -628,6 +628,28 @@ btn.onclick = function() {
 
 简单理解就是，一个函数可以访问另外一个函数内部的局部变量
 
+```js
+
+function demo() {
+    var num = 10;
+    function username() {
+        console.log(num); // 最终输出的数据是什么
+    }
+}
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
