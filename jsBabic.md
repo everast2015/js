@@ -566,9 +566,9 @@ console.log(f,'this的指向是哪个函数')
 // 4. 我们有一个按钮，当我们点击之后，就禁用这个按钮，3秒钟之后开启这个按钮
 ```
 
-- thisArg：在fun 函数运行时指定的this
-- arg1, arg2 传递的其他参数
-- 返回由指定的this值和初始化参数改造的原函数拷贝
+* thisArg：在fun 函数运行时指定的this
+* arg1, arg2 传递的其他参数
+* 返回由指定的this值和初始化参数改造的原函数拷贝
 
 需求：我们有一个按钮，当我们点击之后，就禁用这个按钮，3秒钟之后开启这个按钮
 
@@ -577,8 +577,8 @@ var btn = document.querySelector('button');
 btn.onclick = function() {
     this.disabled = true
     setTimeout((function() {
-        this.disabled = false // 定时器中的this指向的是window的·
-    },3000))
+        this.disabled = false // 定时器中的this指向的是window的,使用bind()改变this的指向问题
+    }.bind(),3000))
 }
 ```
 
