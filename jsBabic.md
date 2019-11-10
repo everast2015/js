@@ -644,6 +644,24 @@ function demo() {
 1. 浅拷贝只是拷贝一层，更深层次对象级别的只拷贝引用
 2. 深拷贝拷贝多层，每一级别的数据都会拷贝
 
+浅拷贝的举例：
+
+```js
+var obj = {
+    name: 'everast',
+    hobby: 'reading'
+}
+
+var o = {};
+// 浅拷贝可以使用for 来循环遍历
+for(var k in o) {
+    o[k] = obj[k]
+}
+
+console.log(o) // 输出的是obj的值
+
+```
+
 
 
 
