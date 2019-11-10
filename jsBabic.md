@@ -576,6 +576,9 @@ console.log(f,'this的指向是哪个函数')
 var btn = document.querySelector('button');
 btn.onclick = function() {
     this.disabled = true
+    setTimeout((function() {
+        this.disabled = false // 定时器中的this指向的是window的
+    },3000))
 }
 ```
 
