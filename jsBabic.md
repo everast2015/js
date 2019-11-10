@@ -585,6 +585,7 @@ btn.onclick = function() {
 ## call(),apply(),bind() 总结
 
 * 相同点：
+
 都可以改变函数内部的this指向 
 
 * 区别点：
