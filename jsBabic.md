@@ -622,6 +622,7 @@ btn.onclick = function() {
 
 ```
 
+## 闭包
 
 
 
