@@ -611,7 +611,7 @@ btn.onclick = function() {
     }
 
     fn(function(){
-        alert('hi'); // 函数可以作为参数进行传递
+        alert('hi'); // 函数可以作为参数进行传递，并且返回的是一个函数
     })
 
     // 返回值函数
