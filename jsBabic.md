@@ -578,7 +578,7 @@ btn.onclick = function() {
     this.disabled = true
     setTimeout((function() {
         this.disabled = false // 定时器中的this指向的是window的,使用bind()改变this的指向问题
-    }.bind(),3000))
+    }.bind(this),3000)) // 这里的this指向的是btn这个方法的
 }
 ```
 
