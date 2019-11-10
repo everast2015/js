@@ -606,7 +606,9 @@ btn.onclick = function() {
 
 ```js
 <script>
-    
+    function fn(callback) {
+        callback&& callback(); // 把函数作为返回值直接返回回去
+    }
 </script>
 
 ```
