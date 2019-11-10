@@ -581,4 +581,5 @@ btn.onclick = function() {
     }.bind(this),3000)) // 这里的this指向的是btn这个方法的
 }
 ```
-122
+
+## call(),apply(),bind() 总结
