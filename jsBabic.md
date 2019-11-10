@@ -586,3 +586,7 @@ btn.onclick = function() {
 
 * 相同点：
 都可以改变函数内部的this指向 
+
+* 区别点：
+1. call() 和 apply() 会调用函数，并且改变函数内部的this指向
+
