@@ -613,6 +613,11 @@ btn.onclick = function() {
     fn(function(){
         alert('hi');
     })
+
+    // 返回值函数
+    function fn() {
+        returun function(){} // 返回的是一个函数，这个是高阶函数
+    }
 </script>
 
 ```
