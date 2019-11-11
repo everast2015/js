@@ -664,6 +664,37 @@ console.log(o) // 输出的是obj的值
 
 ## 深拷贝
 
+深拷贝拷贝多层，每一级别的数据都会拷贝
+
+```js
+var obj = {
+    id: 1,
+    name: 'everast',
+    msg: {
+        age: 18
+    },
+    color: ['skyblue', 'wheat']
+}
+
+var o = {} // 声明一个空的对象
+// 封装函数
+function deepCopy(newObj, oldObj) {
+    for(var k in oldObj) {
+        // 判断我们的属性值属于哪种数据类型
+        // 1. 获取属性值
+        var item = oldObj[k]
+        // 2. 判断这个属性值是否是数组
+        if(item instanceof Array) {
+            newObj[k] = []
+            deepCopy(newObj[k], item)
+        } else if(item instanceof Object) {
+            deepCopy(newObj[k], item)
+        } else {
+            newObj[k] = item
+        }
+    }
+}
+```
 
 
 
