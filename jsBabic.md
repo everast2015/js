@@ -694,6 +694,10 @@ function deepCopy(newObj, oldObj) {
         }
     }
 }
+
+// 最后我们调取以下
+deepCopy(o, obj) // 新旧值
+console.log(o); // 最终输出的拷贝
 ```
 
 
