@@ -684,7 +684,7 @@ function deepCopy(newObj, oldObj) {
         // 1. 获取属性值
         var item = oldObj[k]
         // 2. 判断这个属性值是否是数组
-        if(item instanceof Array) {
+        if(item instanceof Array) { // 数组也是一个对象
             newObj[k] = []
             deepCopy(newObj[k], item)
         } else if(item instanceof Object) {
